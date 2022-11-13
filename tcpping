@@ -27,7 +27,7 @@ C="no"
 ttl=255
 seq=0
 q=1
-r=1
+r=0.5
 w=3
 topts=""
 
@@ -41,7 +41,7 @@ usage () {
 	echo "        -c   print a columned result line"
 	echo "        -C   print in the same format as fping's -C option"
 	echo "        -w   wait time in seconds (defaults to 3)"
-	echo "        -r   repeat every n seconds (defaults to 1)"
+	echo "        -r   repeat every n seconds (defaults to 0.5)"
 	echo "        -x   repeat n times (defaults to unlimited)"
 	echo
 	echo "See also: man tcptraceroute"
